@@ -86,7 +86,7 @@ const ContactPage = () => {
             className="overflow-hidden hidden sm:block  self-end"
           />
         </div>
-        <div className="space-y-8 p-16">
+        <div className="space-y-8 md:p-16 sm:p-12 p-8">
           <div className="">
             <h1 className="font-bold sm:text-3xl text-2xl mb-1">
               Get in touch
@@ -134,7 +134,7 @@ const ContactPage = () => {
                 />
               </div>
             </div>
-            <div className="flex gap-2 items-start mb-4">
+            <div className="flex gap-2 items-start">
               <img src="./Frame 144.svg" alt="frame" />
               <div>
                 <h3 className="sm:text-3xl font-semibold text-2xl">Call Me</h3>
