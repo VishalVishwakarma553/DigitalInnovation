@@ -77,30 +77,30 @@ const Navbar = () => {
         }`}
       >
         <ul className="flex flex-col gap-6 items-start text-white font-bold text-lg pt-20 px-8">
-          <li
-            className="cursor-pointer hover:text-[#FF9D00] transition-colors w-full py-2"
+          <Link to="/"><li
+            className="cursor-pointer text-black transition-colors w-full py-2"
             onClick={toggleMenu}
           >
             Home
-          </li>
+          </li></Link>
           <li
-            className="cursor-pointer hover:text-[#FF9D00] transition-colors w-full py-2"
+            className="cursor-pointer text-black transition-colors w-full py-2"
             onClick={toggleMenu}
           >
             About Us
           </li>
           <li
-            className="cursor-pointer hover:text-[#FF9D00] transition-colors w-full py-2"
+            className="cursor-pointer text-black transition-colors w-full py-2"
             onClick={toggleMenu}
           >
             Testimonial
           </li>
-          <li
-            className="cursor-pointer hover:text-[#FF9D00] transition-colors w-full py-2"
+          <Link to={"/contact"}><li
+            className="cursor-pointer text-black transition-colors w-full py-2"
             onClick={toggleMenu}
           >
             Contact US
-          </li>
+          </li></Link>
           <li className="flex gap-4 pt-4">
             <img
               src="./instagram.png"

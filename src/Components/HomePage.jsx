@@ -113,7 +113,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="bg-[#1B1B1B] px-4 sm:px-7 md:px-10 py-14">
-        <h1 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl">
+        <h1 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl md:mb-10 sm:mb-8 mb-6">
           Current Development Projects
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4">
