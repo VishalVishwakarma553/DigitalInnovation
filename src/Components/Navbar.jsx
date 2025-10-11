@@ -1,19 +1,19 @@
 import { useState } from "react";
 import {Link} from "react-router-dom"
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 p-1 px-2 md:px-6 w-full flex justify-between items-center z-50 ">
+    <nav className="fixed top-0 left-0 right-0 p-1 px-2 md:px-6 w-full flex justify-between items-center z-50 bg-black/5">
       {/* Logo */}
       <img
         src="./Logo transparent.png"
         alt="logo"
-        className="h-[50px] sm:h-[60px] md:h-[72px]"
+        className="h-[50px] sm:h-[60px] md:h-[72px] bg-[#6C3B20] p-2 sm:p-3 md:p-5"
       />
 
       {/* Hamburger Menu Button - Visible on mobile */}
@@ -42,7 +42,7 @@ const Navbar = () => {
       </button>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-6 lg:gap-10 items-center text-white font-bold lg:text-lg">
+      <ul className="hidden md:flex gap-6 font-normal items-center text-white">
         <Link to="/"><li className="cursor-pointer hover:text-[#FF9D00] transition-colors">
           Home
         </li></Link>
@@ -58,14 +58,14 @@ const Navbar = () => {
         </li></Link>
         <li className="flex gap-2">
           <img
-            src="./instagram.png"
+            src="./Vector (2).png"
             alt="Instagram"
-            className="h-[36px] lg:h-[44px] cursor-pointer hover:scale-110 transition-transform"
+            className="h-[30px] cursor-pointer hover:scale-110 transition-transform"
           />
           <img
-            src="./facebook.png"
+            src="./Vector (3).png"
             alt="Facebook"
-            className="h-[36px] lg:h-[44px] cursor-pointer hover:scale-110 transition-transform"
+            className="h-[30px] cursor-pointer hover:scale-110 transition-transform"
           />
         </li>
       </ul>

@@ -2,8 +2,8 @@ import React from 'react'
 
 const CTA = () => {
   return (
-    <div className="w-full flex justify-center">
-        <div className="p-6 flex bg-[#FFDCB5] flex-col items-center rounded-2xl border border-[#353535] w-[80%] space-y-2 my-10">
+    <div className="w-full flex bg-[#F0F0F0] space-y-8">
+        <div className="p-6 flex flex-col items-center w-full space-y-2 my-10">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
             Let’s Get In Touch{" "}
           </h1>
@@ -11,13 +11,13 @@ const CTA = () => {
             We’re here to answer your questions and help you find your next
             property.
           </p>
-          <div className="p-2 flex  flex-wrap justify-center items-center gap-1 rounded-full border border-[#000000] bg-[#D8A451]">
+          <div className="p-2 w-full flex mt-8 justify-center items-center">
             <input
               type="text"
-              className="w-[200px] sm:w-[300px] h-10 outline-2 outline-black rounded-full pl-2 bg-white"
+              className="w-full max-w-2xl h-10 outline-1 outline-[#999999] rounded-lg pl-2 bg-white"
               placeholder="Your email id"
             />
-            <button className="px-8 py-1 bg-black text-white rounded-full">
+            <button className="bg-[#999999] h-10 w-24 sm:w-32 text-white rounded-lg">
               Notify Me
             </button>
           </div>
