@@ -32,61 +32,21 @@ const HomePage = () => {
           <h1 className="text-[#141212] text-center font-poppins font-[500] md:text-[40px] sm:text-3xl text-2xl mb-4 sm:mb-8">
             Introducing Mohsin Ali Khan
           </h1>
-          <div className="px-4 sm:px-7 md:px-10 font-medium md:text-2xl sm:text-xl text-lg md:space-y-9 sm:space-y-7 space-y-5 font-openSans">
-            <p>
-              With a reputation built on trust, dedication, and results, Mohsin
-              Ali Khan is an emerging leader in Perth’s real estate market.
-              Backed by a strong background in sales, customer service, and
-              property knowledge, Mohsin has developed a client first philosophy
-              that places honesty, integrity, and genuine care at the heart of
-              every transaction.
+          <div className="px-4 sm:px-7 md:px-10 font-[400] md:text-[17px] sm:text-xl text-lg md:space-y-9 sm:space-y-7 space-y-5 max-w-[1222px] mx-auto text-[#000000]">
+            <p className="font-opensans">
+              With a reputation built on trust and dedication, Mohsin Ali Khan is a rising name in Perth’s real estate market. His strong background in sales and customer service has shaped a client-first approach that focuses on honesty, results, and genuine care. Whether it’s a first home, a family upgrade, or an investment property, clients choose Mohsin for his ability to listen, understand, and deliver.
             </p>
             <p>
-              Whether assisting with established properties, first home
-              purchase, a family upgrade or downsize, an investment property, or
-              development opportunities, Mohsin is recognised for his ability to
-              listen, understand, and deliver tailored solutions that align with
-              each client’s goals.
-            </p>
-            <div>
-              <p>
-                In addition to his expertise in real estate sales, Mohsin
-                possesses a valuable understanding of the building and
-                construction sector. This insight allows him to provide clients
-                with informed guidance on:
-              </p>
-              <ul className="list-disc p-3 sm:p-5 md:p-8">
-                <li>Property potential and improvements.</li>
-                <li>Marketability of new builds and renovations.</li>
-                <li>Marketability of new builds and renovations.</li>
-                <li>
-                  Working with developers, builders, and investors to maximise
-                  returns.
-                </li>
-              </ul>
-            </div>
-            <p>
-              His ability to combine market knowledge with a practical
-              appreciation of construction makes him a trusted advisor for both
-              homeowners and property investors seeking to make confident,
-              well-informed decisions. Mohsin brings a modern, people-focused
-              approach to real estate leveraging innovative marketing
-              strategies, strong negotiation skills, and clear communication to
-              create campaigns that connect with buyers and achieve premium
-              results. His approachable nature, transparency, and attention to
-              detail ensure that the sales process remains as smooth and stress
-              free as possible for every client.
+              Mohsin brings a modern, people-focused approach to real estate—using innovative marketing strategies and clear communication to create campaigns that connect with buyers and achieve strong outcomes. His clients value his integrity, approachable nature, and commitment to making the sales process as smooth and stress-free as possible.
             </p>
             <p>
-              When you appoint Mohsin, you gain more than a sales consultant you gain a dedicated partner who goes the extra mile from the very first conversation through to final settlement. He prides himself on building long term relationships founded on service excellence, open communication, and trust.
-              <br />
-              Above all, Mohsin treats every client’s property with the same
-              care as his own, working tirelessly to secure the right outcome.
-              For those seeking clear guidance, tailored marketing, strong
-              industry knowledge, and a trusted advocate by their side, Mohsin
-              Ali Khan is the professional you can count on in Perth’s
-              competitive property market.
+              When you choose Mohsin to represent your property, you gain more than an agent—you gain a dedicated partner who goes the extra mile at every stage. From the very first conversation to final settlement, he ensures no detail is overlooked and that your goals are always the top priority.
             </p>
+            <p>
+              While achieving the best possible result is always his focus, Mohsin understands that the journey matters just as much as the destination. He prides himself on building long-term relationships through exceptional service, transparency, and trust.
+            </p>
+            <p>Driven, approachable, and passionate about real estate, Mohsin treats every client’s property as if it were his own—working tirelessly to secure the right result</p>
+            <p>Ultimately, if you’re looking for clear communication, tailored marketing, strong negotiation, and someone who will stand by you every step of the way, Mohsin Ali Khan is the sales consultant you can count on.</p>
           </div>
         </div>
         {/* Examples Section */}
