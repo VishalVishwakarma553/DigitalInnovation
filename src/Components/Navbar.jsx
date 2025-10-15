@@ -8,7 +8,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 pt-[57.8px] pl-2 md:pl-[98px] pr-[19px] w-full flex justify-between z-50">
+    <nav className="absolute top-0 left-0 right-0 pt-[57.8px] pl-2 md:pl-[98px] pr-[19px] w-full flex justify-between z-50">
       {/* Logo */}
       <div className="bg-[#4B2C38] flex justify-center items-center h-[50px] sm:h-[60px] md:h-[64px] md:w-[241px] rounded-[5px] ">
       <img

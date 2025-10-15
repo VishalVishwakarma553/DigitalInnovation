@@ -8,7 +8,7 @@ import CTA from "./Components/CTA"
 function App() {
 
   return (
-    <>
+    <div>
     <Navbar />
     <Routes>
       <Route path="/" element={<HomePage />} />
@@ -16,7 +16,7 @@ function App() {
     </Routes>
     <CTA/>
     <Footer />
-    </>
+    </div>
   )
 }
 
