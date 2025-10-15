@@ -8,14 +8,15 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 p-1 px-2 md:px-6 w-full flex justify-between items-center z-50 bg-black/5">
+    <nav className="fixed top-0 left-0 right-0 pt-[57.8px] pl-2 md:pl-[98px] pr-[19px] w-full flex justify-between z-50">
       {/* Logo */}
+      <div className="bg-[#4B2C38] flex justify-center items-center h-[50px] sm:h-[60px] md:h-[64px] md:w-[241px] rounded-[5px] ">
       <img
         src="./Logo transparent.png"
         alt="logo"
-        className="h-[50px] sm:h-[60px] md:h-[72px] bg-[#6C3B20] p-2 sm:p-3 md:p-5"
+        className="w-[182px]"
       />
-
+      </div>
       {/* Hamburger Menu Button - Visible on mobile */}
       <button
         onClick={toggleMenu}
@@ -42,16 +43,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </button>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-6 font-normal items-center text-white">
+      <ul className="hidden md:flex gap-4 text-[14.3px] font-[400] items-center text-white pr-2 font-poppins">
         <Link to="/"><li className="cursor-pointer hover:text-[#FF9D00] transition-colors">
           Home
         </li></Link>
         
         <li className="cursor-pointer hover:text-[#FF9D00] transition-colors">
-          About Us
-        </li>
-        <li className="cursor-pointer hover:text-[#FF9D00] transition-colors">
-          Testimonial
+          About Us <span>Testimonial</span>
         </li>
         <Link to="/contact"><li className="cursor-pointer hover:text-[#FF9D00] transition-colors">
           Contact US
@@ -60,12 +58,12 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           <img
             src="./Vector (2).png"
             alt="Instagram"
-            className="h-[30px] cursor-pointer hover:scale-110 transition-transform"
+            className="h-[22px] cursor-pointer hover:scale-110 transition-transform"
           />
           <img
             src="./Vector (3).png"
             alt="Facebook"
-            className="h-[30px] cursor-pointer hover:scale-110 transition-transform"
+            className="h-[22px] cursor-pointer hover:scale-110 transition-transform"
           />
         </li>
       </ul>

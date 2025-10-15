@@ -15,21 +15,21 @@ const HomePage = () => {
         <img
           src="mohsin image 3.png"
           alt="m"
-          className="h-[335px] xs: sm:h-[435px]  md:h-[536px] lg:h-[878px] object-cover absolute bottom-0 top-16 -right-15 lg:-right-12"
+          className="h-[335px] xs: sm:h-[435px]  md:h-[536px] lg:h-[909px] object-cover absolute bottom-0 top-[14px] -right-15 lg:left-[285px]"
         />
         {/* <p className="absolute top-[37%] text-[#FF9D00] font-semibold font-['Poltawski_Nowy'] pl-3 sm:pl-6 md:pl-8 lg:pl-3 text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[140px]">
           Mohsin Ali <br /> Khan
         </p> */}
-        <div className="absolute top-[35%] sm:top-[28%]  md:top-[30%] lg:top-[37%] left-[20px] sm:left-[30px] md:left-[50px] lg:left-[80px] text-[#6B2938]">
-          <h1 className="font-semibold font-['HeadlandOne'] text-[40px] sm:text-[50px] md:text-[75px] lg:text-[90px]">Mohsin <br /> Ali Khan </h1>
-          <p className="text-xs sm:text-lg md:text-xl font-medium font-['Poppins'] mt-0.5 sm:mt-1.5 ml-0 sm:ml-1 md:ml-4">Your Trusted Real Estate Partners</p>
-          <button className="px-2 md:px-4 py-1 md:py-2 font-medium font-[Poppins] rounded-sm sm:rounded-lg bg-[#3D2836] text-[#D1BDA4] text-sm sm:text-lg md:text-xl mt-6 sm:mt-10 ml-2 sm:ml-3 md:ml-6">Find your dream home</button>
+        <div className="absolute top-[35%] sm:top-[28%]  md:top-[250px] left-[20px] sm:left-[30px] md:left-[95px] text-[#6B2938]">
+          <h1 className="font-[400] font-headland text-[40px] sm:text-[50px] md:text-[75px] lg:text-[90px]">MOHSIN <br /> ALI KHAN </h1>
+          <p className="text-xs sm:text-lg md:text-[23.84px] font-[500] font-poppins mt-0.5 sm:mt-1.5 ml-0 sm:ml-1 md:ml-4 text-[#141212]">YOUR TRUSTED REAL ESTATE SPECIALIST</p>
+          <button className="px-2 md:px-4 py-1 md:w-[300px] md:h-[60px] font-poppins font-[500] rounded-sm sm:rounded-[10px] bg-[#3D2836] text-[#D1BDA4] text-sm sm:text-lg md:text-[20px] mt-[20px] sm:mt-[60px]">FIND YOUR DREAM HOME</button>
         </div>
       </div>
       {/* Introduction Section */}
       <div className="space-y-3 sm:space-y-5 md:space-y-7">
         <div className="sm:my-14 my-10">
-          <h1 className="text-[#141212] text-center font-['Poppins'] font-bold md:text-5xl sm:text-3xl text-2xl mb-4 sm:mb-8">
+          <h1 className="text-[#141212] text-center font-poppins font-[500] md:text-[40px] sm:text-3xl text-2xl mb-4 sm:mb-8">
             Introducing Mohsin Ali Khan
           </h1>
           <div className="px-4 sm:px-7 md:px-10 font-medium md:text-2xl sm:text-xl text-lg md:space-y-9 sm:space-y-7 space-y-5 font-openSans">
